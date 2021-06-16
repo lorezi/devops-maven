@@ -1,4 +1,4 @@
-# A simple, minimal Maven example: hello world
+# A simple, minimal Maven example: hello world with Jenkins
 
 To create the files in this git repo we've already run `mvn archetype:generate` from http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
@@ -32,7 +32,7 @@ Running `mvn compile` produces a class file:
     src/main/java/com/mycompany/app/App.java
     src/test/java/com/mycompany/app/AppTest.java
     target/classes/com/mycompany/app/App.class
-    murphy:my-app pdurbin$ 
+    murphy:my-app pdurbin$
     murphy:my-app pdurbin$ java -cp target/classes com.mycompany.app.App
     Hello World!
 
@@ -50,7 +50,7 @@ Running `mvn package` does a compile and creates the target directory, including
     target/surefire-reports/com.mycompany.app.AppTest.txt
     target/surefire-reports/TEST-com.mycompany.app.AppTest.xml
     target/test-classes/com/mycompany/app/AppTest.class
-    murphy:my-app pdurbin$ 
+    murphy:my-app pdurbin$
     murphy:my-app pdurbin$ java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
     Hello World!
 
