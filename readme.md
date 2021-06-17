@@ -4,7 +4,7 @@ To create the files in this git repo we've already run `mvn archetype:generate` 
 
     mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-Now, to print "Hello World!", type either...
+Now, to print "Hello World!", type either great...
 
     cd my-app
     mvn compile
